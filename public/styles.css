@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+
+  #search-bar {
+    display: flex;
+    flex-direction: row;
+    border: solid green;
+  }
+
+  #item-details {
+    display: flex;
+    flex-direction: row;
+    border: solid dodgerblue; 
+  }
+
+  #item-reviews{
+    display: flex;
+    flex-direction: row;
+    border: solid red; 
+  }
